@@ -1,7 +1,8 @@
 # Exercise 7: Husky Football 2015 Season
 # Read in the Husky Football 2015 game data into a variable called `husky.games.2015`
-
+husky.games.2015 <- read.csv("data/huskies_2015.csv", stringAsFactors = FALSE)
 # Create a vector of the teams that the Huskies played against during that season
+teams.played <- 
 # Call this vector `not.huskies`. You'll need to convert this column to a vector
 
 # Create a vector of the their final scores for the games
